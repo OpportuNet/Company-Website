@@ -1,0 +1,38 @@
+[
+    {
+     "Applet_No": "Title",
+     "Description": "Description",
+     "file": "applet-1.html",
+     "Image": "./assets/imgs/j1.jpg"
+    },
+    {
+     "Applet_No": "Title",
+     "Description": "Description",
+     "file": "applet-1.html",
+     "Image": "./assets/imgs/j2.jpg"
+     },
+     {
+     "Applet_No": "Title",
+     "Description": "Description",
+     "file": "applet-1.html",
+     "Image": "./assets/imgs/j3.jpg"
+     },
+     {
+     "Applet_No": "Title",
+     "Description": "Description",
+     "file": "applet-1.html",
+     "Image": "./assets/imgs/j4.jpg"
+     },
+     {
+     "Applet_No": "Title",
+     "Description": "Description",
+     "file": "applet-1.html",
+     "Image": "./assets/imgs/j5.jpg"
+     },
+     {
+     "Applet_No": "Title",
+     "Description": "Description",
+     "file": "applet-1.html",
+     "Image": "./assets/imgs/j6.jpg"
+     }
+  ]

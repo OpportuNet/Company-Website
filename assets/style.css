@@ -166,6 +166,42 @@ img {
     font-size: 34px;
     flex: none;
 }
+/* Job Offers Section */
+#offers{
+    background: linear-gradient(rgba(var(--bg-section), 1.000), rgba(var(--bg-section), 0.438)), url(../assets/imgs/s2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: #212529; 
+}
+.applet-container {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(27, 27, 27);
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.container-fluid{
+    align-items: center;
+    margin-right: 30px;
+}
+.applet-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.image {
+    height: 250px;
+    width: auto;
+    object-fit: cover;
+}
+.applet-flex-container > div{
+    margin-left: .5rem;
+}
 
 /* Service Section */
 #services {

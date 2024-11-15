@@ -26,30 +26,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
+                    <li class="nav-item"></li>
+                        <a class="nav-link" href="#offers">Job Offers</a>
+                    </li>                 
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#reviews">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#team">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                <a href="#" class="btn btn-brand ms-lg-3">Login</a>
+                    </li>   
             </div>
         </div>
     </nav>
     
+
     <!-- Home Setion-->
     <section id="home" class="min-vh-100 d-flex align-items-center text-center">
         <div class="container">
@@ -64,7 +54,24 @@
             </div>
         </div>
     </section>
-
+    <!--Job Offers Section -->
+    <section id="offers" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="5">
+                    <div class="section-title">
+                        <h1 class="display-4 fw-semibold">Job Offers</h1>
+                        <div class="line"></div>
+                        <p>Description.</p>
+                    </div>
+                </div>
+            </div>
+            <div class ="applet-flex-container" id="appletgalleryCont">
+            </div>
+            <script src="./assets/json/job.json"></script>
+            <script src="./assets/js/jobgallery.js"></script>
+        </div>
+    </section>
     <!-- About Section -->
     <section id="about" class="section-padding">
         <div class="container">
@@ -105,8 +112,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Services Section -->
+        <!-- Services Section -->
     <section id="services" class="section-padding border-top">
         <div class="container">
             <div class="row">
@@ -146,33 +152,6 @@
                         <p>We help job seekers craft standout resumes and optimize their profiles, increasing their chances of landing interviews and getting noticed by top employers.</p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6"  >
-                    <div class="service theme-shadow p-lg-5 p-4">
-                        <div class="iconbox">
-                            <i class="ri-pie-chart-2-fill"></i>
-                        </div>
-                        <h5 class="mt-4 mb-3">Company Branding and Job Post Optimization</h5>
-                        <p>Employers can enhance their company’s profile and job postings to attract top talent, creating a compelling employer brand and attracting high-quality applicants.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6"  >
-                    <div class="service theme-shadow p-lg-5 p-4">
-                        <div class="iconbox">
-                            <i class="ri-code-box-line"></i>
-                        </div>
-                        <h5 class="mt-4 mb-3">Interview Preparation Coaching</h5>
-                        <p>Our expert coaches provide personalized interview tips and strategies to help candidates feel confident and ready to impress during interviews.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6" >
-                    <div class="service theme-shadow p-lg-5 p-4">
-                        <div class="iconbox">
-                            <i class="ri-user-2-fill"></i>
-                        </div>
-                        <h5 class="mt-4 mb-3">Job Alerts and Notifications</h5>
-                        <p>Job seekers receive personalized job alerts and updates, ensuring you never miss out on new opportunities that match your skills and preferences</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -199,7 +178,6 @@
             </div>
         </div>
     </section>
-
     <!-- Portfolio Section -->
     <section id="portfolio" class="section-padding">
         <div class="container">
@@ -257,6 +235,7 @@
             </div>
         </div>
     </section>
+    
     <!-- Reviews of clients -->
     <section id="reviews" class="section-padding bg-light">
         <div class="container">
@@ -556,5 +535,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./assets/js/main.js"></script>
+    
+    
 </body>
 </html>
