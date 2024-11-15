@@ -1,5 +1,6 @@
 /* FONTS */
 @import url(../assets/clash-display.css);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@700&display=swap');
 
 /* Var */
 :root {
@@ -24,8 +25,9 @@ body {
 
 h1, h2, h3,h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-    font-weight: bold;
+    font-weight:bolder;
     color: var(--c-dark);
+    font-family: "Outfit", sans-serif;
 }
 
 a {
@@ -86,19 +88,19 @@ img {
 /* buttons */
 .btn {
     font-weight: 600;
-    font-size: 14px;
-    text-transform: uppercase;
-    border-radius: 0;
-    padding: 10px 24px;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
 }
 .btn-brand-me-2{
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: var(--c-brand);
     border-color: var(--c-brand);
     color: white;
 }
 .btn-brand-me-2:hover{
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: var(--c-brand-light);
     border-color: var(--c-brand-light);
     color: white;
@@ -109,6 +111,7 @@ img {
     background-color: var(--c-brand);
     border-color: var(--c-brand);
     color: white;
+    width: 100px;
 }
 
 .btn-brand:hover {
@@ -130,7 +133,7 @@ img {
 
 /* About Section */
 #about {
-    background: linear-gradient(rgba(var(--bg-section), 1.000), rgba(var(--bg-section), 0.438)), url(../assets/imgs/3.jpg);
+    background: linear-gradient(rgba(var(--bg-section), 1.000), rgba(var(--bg-section), 0.438));
     background-position: center;
     background-size: cover;
     text-shadow: #212529; 
@@ -153,6 +156,38 @@ img {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+}
+.service {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.service::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: rgba(var(--c-brand-rgb), 0.2);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: var(--transition);
+}
+.service:hover::after {
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: -500;
+}
+
+.service:hover h5,
+.service:hover p {
+    color: white;
+}
+
+.service:hover .iconbox {
+    background-color: rgba(255,255,255,0.2);
+    color: white;
 }
 /* icon box class */
 .iconbox {
@@ -194,6 +229,14 @@ img {
     gap: 2rem;
     padding: 2rem;
 }
+.card {
+    width: 18rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
 .image {
     height: 250px;
     width: auto;
@@ -201,48 +244,6 @@ img {
 }
 .applet-flex-container > div{
     margin-left: .5rem;
-}
-
-/* Service Section */
-#services {
-    background: linear-gradient(rgba(var(--bg-section), 1.000), rgba(var(--bg-section), 0.438)), url(../assets/imgs/5.jpg);
-    background-position: center;
-    background-size: cover;
-    text-shadow: #212529; 
-}
-.service {
-    position: relative;
-    overflow: hidden;
-    z-index: 2;
-}
-
-.service::after {
-    content: "";
-    width: 40px;
-    height: 40px;
-    background: rgba(var(--c-brand-rgb), 0.2);
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    transition: var(--transition);
-}
-
-
-.service:hover::after {
-    width: 100%;
-    height: 100%;
-    background: var(--c-brand);
-    z-index: -1;
-}
-
-.service:hover h5,
-.service:hover p {
-    color: white;
-}
-
-.service:hover .iconbox {
-    background-color: rgba(255,255,255,0.2);
-    color: white;
 }
 /* Counter Section */
 #counter {

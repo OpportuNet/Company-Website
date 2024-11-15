@@ -1,38 +1,37 @@
-[
-    {
-     "Applet_No": "Title",
-     "Description": "Description",
-     "file": "applet-1.html",
-     "Image": "./assets/imgs/j1.jpg"
+[    {
+    "Applet_No": "Manolo Fortich LGU",
+    "Description": "The Local Governmet Unit of Manolo Fortich is in need of Local Revinue Collection Officer I",
+    "file": ".html",
+    "Image": "./assets/imgs/logolgu.png"
     },
     {
-     "Applet_No": "Title",
-     "Description": "Description",
-     "file": "applet-1.html",
-     "Image": "./assets/imgs/j2.jpg"
+    "Applet_No": "Manolo Fortich LGU",
+    "Description": "The Local Governmet Unit of Manolo Fortich is in need of Local Legislative Officer III",
+    "file": ".html",
+    "Image": "./assets/imgs/logolgu.png"
+    },
+    {
+    "Applet_No": "Manolo Fortich LGU",
+    "Description": "The Local Governmet Unit of Manolo Fortich is in need of Engineer I",
+    "file": ".html",
+    "Image": "./assets/imgs/logolgu.png"
+    },
+    {
+     "Applet_No": "MUTI Group of Companies",
+     "Description": "The Muti Group of Companies is in need of Utility Driver",
+     "file": ".html",
+     "Image": "./assets/imgs/logomuti.png"
+    },
+    {
+     "Applet_No": "Fast Distribution Corporation",
+     "Description": "Fast Distribution Corporation is in need of Relief Sales Representative",
+     "file": ".html",
+     "Image": "./assets/imgs/logofastdel.png"
      },
      {
-     "Applet_No": "Title",
-     "Description": "Description",
-     "file": "applet-1.html",
-     "Image": "./assets/imgs/j3.jpg"
-     },
-     {
-     "Applet_No": "Title",
-     "Description": "Description",
-     "file": "applet-1.html",
-     "Image": "./assets/imgs/j4.jpg"
-     },
-     {
-     "Applet_No": "Title",
-     "Description": "Description",
-     "file": "applet-1.html",
-     "Image": "./assets/imgs/j5.jpg"
-     },
-     {
-     "Applet_No": "Title",
-     "Description": "Description",
-     "file": "applet-1.html",
-     "Image": "./assets/imgs/j6.jpg"
+     "Applet_No": "Northern Bukidnon State College (H.R)",
+     "Description": "The Northern Bukidnon State College is hiring for Instructor 1",
+     "file": ".html",
+     "Image": "./assets/imgs/nbsclogo.png"
      }
   ]
