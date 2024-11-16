@@ -1,37 +1,83 @@
-[    {
-    "Applet_No": "Manolo Fortich LGU",
-    "Description": "The Local Governmet Unit of Manolo Fortich is in need of Local Revinue Collection Officer I",
-    "file": ".html",
-    "Image": "./assets/imgs/logolgu.png"
+[
+    {
+        "Applet_No": "Manolo Fortich LGU",
+        "Description": "The Local Government Unit of Manolo Fortich is in need of Local Revenue Collection Officer I",
+        "file": ".html",
+        "Image": "./assets/imgs/logolgu.png",
+        "Job_Duration": "6 months",
+        "Per_Day_Salary": "PHP 909.09",
+        "Positions_Available": "3"
     },
     {
-    "Applet_No": "Manolo Fortich LGU",
-    "Description": "The Local Governmet Unit of Manolo Fortich is in need of Local Legislative Officer III",
-    "file": ".html",
-    "Image": "./assets/imgs/logolgu.png"
+        "Applet_No": "Manolo Fortich LGU",
+        "Description": "The Local Government Unit of Manolo Fortich is in need of Local Legislative Officer III",
+        "file": ".html",
+        "Image": "./assets/imgs/logolgu.png",
+        "Job_Duration": "12 months",
+        "Per_Day_Salary": "PHP 1,200.00",
+        "Positions_Available": "2"
     },
     {
-    "Applet_No": "Manolo Fortich LGU",
-    "Description": "The Local Governmet Unit of Manolo Fortich is in need of Engineer I",
-    "file": ".html",
-    "Image": "./assets/imgs/logolgu.png"
+        "Applet_No": "Manolo Fortich LGU",
+        "Description": "The Local Government Unit of Manolo Fortich is in need of Engineer I",
+        "file": ".html",
+        "Image": "./assets/imgs/logolgu.png",
+        "Job_Duration": "8 months",
+        "Per_Day_Salary": "PHP 1,000.00",
+        "Positions_Available": "4"
     },
     {
-     "Applet_No": "MUTI Group of Companies",
-     "Description": "The Muti Group of Companies is in need of Utility Driver",
-     "file": ".html",
-     "Image": "./assets/imgs/logomuti.png"
+        "Applet_No": "MUTI Group of Companies",
+        "Description": "The Muti Group of Companies is in need of Utility Driver",
+        "file": ".html",
+        "Image": "./assets/imgs/logomuti.png",
+        "Job_Duration": "6 months",
+        "Per_Day_Salary": "PHP 700.00",
+        "Positions_Available": "5"
     },
     {
-     "Applet_No": "Fast Distribution Corporation",
-     "Description": "Fast Distribution Corporation is in need of Relief Sales Representative",
-     "file": ".html",
-     "Image": "./assets/imgs/logofastdel.png"
-     },
-     {
-     "Applet_No": "Northern Bukidnon State College (H.R)",
-     "Description": "The Northern Bukidnon State College is hiring for Instructor 1",
-     "file": ".html",
-     "Image": "./assets/imgs/nbsclogo.png"
-     }
-  ]
+        "Applet_No": "Fast Distribution Corporation",
+        "Description": "Fast Distribution Corporation is in need of Relief Sales Representative",
+        "file": ".html",
+        "Image": "./assets/imgs/logofastdel.png",
+        "Job_Duration": "9 months",
+        "Per_Day_Salary": "PHP 850.00",
+        "Positions_Available": "3"
+    },
+    {
+        "Applet_No": "Northern Bukidnon State College (H.R)",
+        "Description": "The Northern Bukidnon State College is hiring for Instructor I",
+        "file": ".html",
+        "Image": "./assets/imgs/nbsclogo.png",
+        "Job_Duration": "5 months",
+        "Per_Day_Salary": "PHP 950.00",
+        "Positions_Available": "2"
+    },
+    {
+        "Applet_No": "Julie's Bakeshop",
+        "Description": "Julie’s Bakeshop is hiring part-time crew members. This job is perfect for working students or tambays who want to work in a friendly environment and gain experience in customer service and food preparation. Flexible hours available, great for earning while studying.",
+        "file": ".html",
+        "Image": "assets/imgs/julies.jpg",
+        "Job_Duration": "3 months",
+        "Per_Day_Salary": "PHP 450.00",
+        "Positions_Available": "6"
+    },
+    {
+        "Applet_No": "Jollibee",
+        "Description": "Jollibee is in need of part-time crew members. This fast-paced role is perfect for students or tambays looking for flexible working hours. Work in a fun and energetic environment, with daily earnings and experience in food service and customer interaction.",
+        "file": ".html",
+        "Image": "/assets/imgs/jollibee.jpg",
+        "Job_Duration": "5 months",
+        "Per_Day_Salary": "PHP 400.00",
+        "Positions_Available": "10"
+    },
+    {
+        "Applet_No": "7-Eleven Convenience Store",
+        "Description": "7-Eleven is looking for part-time store clerks. This role is perfect for working students or tambays who need flexible hours. Great opportunity to gain experience in retail and customer service, with a steady daily salary.",
+        "file": ".html",
+        "Image": "/assets/imgs/7 eleven.jpg",
+        "Job_Duration": "4 months",
+        "Per_Day_Salary": "PHP 450.00",
+        "Positions_Available": "8"
+    }
+]
