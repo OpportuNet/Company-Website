@@ -57,7 +57,7 @@
         "Applet_No": "Julie's Bakeshop",
         "Description": "Julie’s Bakeshop is hiring part-time crew members. This job is perfect for working students or tambays who want to work in a friendly environment and gain experience in customer service and food preparation. Flexible hours available, great for earning while studying.",
         "file": ".html",
-        "Image": "assets/imgs/julies.jpg",
+        "Image": "./assets/imgs/julies.jpg",
         "Job_Duration": "3 months",
         "Per_Day_Salary": "PHP 450.00",
         "Positions_Available": "6"
@@ -66,7 +66,7 @@
         "Applet_No": "Jollibee",
         "Description": "Jollibee is in need of part-time crew members. This fast-paced role is perfect for students or tambays looking for flexible working hours. Work in a fun and energetic environment, with daily earnings and experience in food service and customer interaction.",
         "file": ".html",
-        "Image": "assets/imgs/jollibee.jpg",
+        "Image": "./assets/imgs/jollibee.jpg",
         "Job_Duration": "5 months",
         "Per_Day_Salary": "PHP 400.00",
         "Positions_Available": "10"
@@ -75,7 +75,7 @@
         "Applet_No": "7-Eleven Convenience Store",
         "Description": "7-Eleven is looking for part-time store clerks. This role is perfect for working students or tambays who need flexible hours. Great opportunity to gain experience in retail and customer service, with a steady daily salary.",
         "file": ".html",
-        "Image": "assets/imgs/7 eleven.jpg",
+        "Image": "./assets/imgs/7 eleven.jpg",
         "Job_Duration": "4 months",
         "Per_Day_Salary": "PHP 450.00",
         "Positions_Available": "8"
