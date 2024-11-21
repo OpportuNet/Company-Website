@@ -27,9 +27,7 @@ class AppletGallery {
             `<div class="card" style="width: 18rem;"> 
                 <img src="${applet.Image}" class="card-img-top image" alt="${applet.Applet_No}">
                 <h5>${applet.Applet_No}</h5>
-                <p>${applet.Description}</p>
-                <p><strong>Positions Available:</strong> ${applet.Positions_Available}</p> <!-- New field added -->
-                <a href="${applet.file}" class="btn btn-primary" style="margin: auto; margin-bottom: 1rem; margin-top: 1rem;">Apply Now</a>  
+                <p>${applet.Description}</p> 
             </div>`
         ).join('');
     }
