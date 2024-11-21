@@ -1,6 +1,4 @@
-
 class AppletGallery {
-
     constructor(dataUrl) {
         this.dataUrl = dataUrl;
         this.appletgallery = [];
@@ -12,6 +10,7 @@ class AppletGallery {
         this.renderAppletGallery(this.appletgallery); 
         this.bindSearchEvent();
     }
+
     async fetchData() {
         try {
             const response = await fetch(this.dataUrl);
@@ -24,27 +23,32 @@ class AppletGallery {
     renderAppletGallery(appletgallery) {
         const appletgalleryCont = document.getElementById('appletgalleryCont');
         appletgalleryCont.innerHTML = appletgallery.map(applet => 
-            `<div class="card" style="width: 18rem;"> 
+            `<div class="card">
                 <img src="${applet.Image}" class="card-img-top image" alt="${applet.Applet_No}">
-                <h5>${applet.Applet_No}</h5>
-                <p>${applet.Description}</p> 
+                <div class="card-body">
+                    <h5 class="card-title">${applet.Applet_No}</h5>
+                    <p class="card-text">${applet.Description}</p>
+                </div>
             </div>`
         ).join('');
     }
+
     bindSearchEvent() {
         const appletSearchBar = document.getElementById('appletSearchBar'); 
 
         appletSearchBar.addEventListener('input', () => {
             this.filterApplet(appletSearchBar.value);
         });
-
     }
+
     filterApplet(query) {
-        const filteredapplet = this.appletgallery.filter(applet => {
-            return applet.Applet_No.toLowerCase().includes(query.toLowerCase())
+        const filteredApplet = this.appletgallery.filter(applet => {
+            return applet.Applet_No.toLowerCase().includes(query.toLowerCase());
         });
 
-        this.renderAppletGallery(filteredapplet);
+        this.renderAppletGallery(filteredApplet);
     }
 }
+
+// Initialize AppletGallery with JSON data
 const appletgallery = new AppletGallery('./assets/json/job.json');

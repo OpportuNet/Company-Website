@@ -18,14 +18,8 @@
         "Image": "./assets/imgs/logofastdel.png"
     },
     {
-        "Applet_No": "Northern Bukidnon State College (H.R)",
-        "Description": "A public educational institution offering diverse academic programs and fostering community development through education.",
-        "file": "./App/src/job-list.html",
-        "Image": "./assets/imgs/nbsclogo.png"
-    },
-    {
         "Applet_No": "Julie's Bakeshop",
-        "Description": "Julie’s Bakeshop is hiring part-time crew members. This job is perfect for working students or tambays who want to work in a friendly environment and gain experience in customer service and food preparation. Flexible hours available, great for earning while studying.",
+        "Description": "A well-loved bakery chain in the Philippines, offering a variety of freshly baked goods in a warm and friendly environment.",
         "file": "./App/src/job-list.html",
         "Image": "./assets/imgs/julies.jpg"
     },
