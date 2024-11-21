@@ -12,7 +12,6 @@
     --font-base: "ClashDisplay", sans-serif;
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
     --transition: all 0.5s ease;
-    --bg-section: 189, 181, 181;
 }
 
 /* Set Elements */
@@ -136,11 +135,10 @@ img {
     background: white;
     background-position: center;
     background-size: cover;
-    text-shadow: #212529; 
-}
-.col-lg-5{
     text-shadow: #212529;
 }
+
+/* Section title */
 .section-title {
     margin-bottom: 60px;
 }
@@ -157,6 +155,7 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
 /* About Item styling */
 .about-item {
     background-color: #fff;
@@ -192,12 +191,14 @@ img {
 }
 
 /* Job Offers Section */
-#offers{
+#offers {
     background: linear-gradient(rgba(var(--bg-section), 1.000), rgba(var(--bg-section), 0.438)), url(../assets/imgs/s2.jpg);
     background-position: center;
     background-size: cover;
-    text-shadow: #212529; 
+    text-shadow: #212529;
 }
+
+/* Applet Container */
 .applet-container {
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(27, 27, 27);
@@ -207,10 +208,12 @@ img {
     padding: 10px;
     text-align: center;
 }
-.container-fluid{
+
+.container-fluid {
     align-items: center;
     margin-right: 30px;
 }
+
 /* Flex container updated to use Grid */
 .applet-flex-container {
     display: grid; /* Use grid for better control */
@@ -220,6 +223,8 @@ img {
     justify-content: center;
     text-align: center;
 }
+
+/* Card Styling */
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
@@ -227,46 +232,58 @@ img {
     overflow: hidden;
     height: auto;
 }
+
 .card:hover {
     transform: scale(1.05);
 }
+
 .card .image {
     height: 250px;
     width: 100%;
     object-fit: cover;
 }
+
+/* Card content styling */
 .card-body {
     padding: 1rem;
 }
+
 .card-title {
     font-size: 1.2rem;
     font-weight: bold;
 }
+
 .card-text {
     font-size: 1rem;
     color: #555;
 }
 
+/* Responsive Grid: 4 cards for the first row, 4 cards for the second row */
 .applet-flex-container > div:nth-child(-n+4) {
     /* First 4 cards: Full width in the first row */
     grid-column: span 1;
 }
+
 .applet-flex-container > div:nth-child(n+5):nth-child(-n+8) {
     /* Next 4 cards: In the second row */
     grid-column: span 1;
 }
+
 @media (max-width: 1024px) {
     /* For medium screens, switch to a smaller grid layout */
     .applet-flex-container {
         grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
     }
 }
+
 @media (max-width: 767px) {
     /* For mobile screens, switch to 1 card per row */
     .applet-flex-container {
         grid-template-columns: 1fr; /* 1 card per row */
     }
 }
+
+
 /* Team */
 .team-member-content {
     background-color: var(--c-brand);
@@ -284,6 +301,34 @@ img {
     opacity: 1;
     bottom: 24px;
 }
+/* Contact Us */
+#contact {
+    margin-top: 2px;
+    position: relative;
+    z-index: 2;
+}
+
+#contact::after {
+    content: "";
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.8), rgba(var(--c-brand-rgb), 0.8)), url(../images/counter.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#contact .form-control {
+    border-radius: 0;
+}
+
+#contact .form-control:focus {
+    box-shadow: none;
+    border-color: var(--c-brand);
+}
 
 /* Footer placement */
 /* Footer Background and Styling */
@@ -291,55 +336,67 @@ img {
     background-color: #1a1a1a;
     padding: 60px 0;
 }
+
 .new-footer .line {
     width: 40px;
     height: 4px;
     background-color: #ff7f50;
     margin: 10px 0;
 }
+
 .new-footer h5 {
     font-size: 20px;
     font-weight: 600;
     color: white;
 }
+
 .new-footer p,
 .new-footer ul li {
     color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
     margin-bottom: 10px;
-
+   
 }
+
 .new-footer ul {
     padding-left: 0;
     list-style: none;
 }
+
 .new-footer ul li a {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     transition: 0.3s;
 }
+
 .new-footer ul li a:hover {
     color: #ff7f50;
 }
+
 .new-footer .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 20px;
 }
+
 .new-footer .footer-bottom p {
     color: rgba(255, 255, 255, 0.8);
 }
+
 .social-icons {
     margin-top: 15px;
 }
+
 .social-icon {
     margin: 0 10px;
     font-size: 20px;
     color: #fff;
     transition: color 0.3s ease;
 }
+
 .social-icon:hover {
     color: #ff7f50;
 }
+
 /* Responsiveness */
 @media (max-width: 768px) {
     .new-footer .row {
