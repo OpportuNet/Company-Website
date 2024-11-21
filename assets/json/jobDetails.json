@@ -1,0 +1,32 @@
+{
+    "jobTitle": "Marketing Manager",
+    "location": "New York, USA",
+    "jobType": "Full Time",
+    "salaryRange": "$123 - $456",
+    "companyLogo": "./assets/imgs/s2.jpg",
+    "jobDescription": "Dolor justo tempor duo ipsum accusam rebum gubergren erat. Elitr stet dolor vero clita labore gubergren...",
+    "responsibilities": [
+      "Dolor justo tempor duo ipsum accusam",
+      "Elitr stet dolor vero clita labore gubergren",
+      "Rebum vero dolores dolores elitr",
+      "Est voluptua et sanctus at sanctus erat",
+      "Diam diam stet erat no est est"
+    ],
+    "qualifications": [
+      "Dolor justo tempor duo ipsum accusam",
+      "Elitr stet dolor vero clita labore gubergren",
+      "Rebum vero dolores dolores elitr",
+      "Est voluptua et sanctus at sanctus erat",
+      "Diam diam stet erat no est est"
+    ],
+    "applyDetails": {
+      "publishedDate": "01 Jan, 2045",
+      "vacancy": "123 Position",
+      "jobNature": "Full Time",
+      "salary": "$123 - $456",
+      "location": "New York, USA",
+      "deadline": "01 Jan, 2045"
+    },
+    "companyDetails": "Ipsum dolor ipsum accusam stet et et diam dolores, sed rebum sadipscing elitr vero dolores. Lorem dolore elitr justo et no gubergren..."
+  }
+  
