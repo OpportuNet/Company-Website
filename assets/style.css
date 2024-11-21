@@ -12,7 +12,6 @@
     --font-base: "ClashDisplay", sans-serif;
     --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
     --transition: all 0.5s ease;
-    --bg-section: 189, 181, 181;
 }
 
 /* Set Elements */
@@ -121,7 +120,7 @@ img {
 }
 /* For Home Section */
 #home {
-    background: linear-gradient(rgba(var(--c-brand-rgb), 1.000), rgba(var(--c-brand-rgb), 0.438)), url(../assets/imgs/bg1.jpg);
+    background: linear-gradient(rgba(var(--c-brand-rgb), 1.000), rgba(var(--c-brand-rgb), 0.438)),url(../assets/imgs/logo.jpg);
     background-position: center;
     background-size: cover;
     text-shadow: #212529;
@@ -133,7 +132,7 @@ img {
 
 /* About Section */
 #about {
-    background: linear-gradient(rgba(var(--bg-section), 1.000), rgba(var(--bg-section), 0.438));
+    background: white;
     background-position: center;
     background-size: cover;
     text-shadow: #212529;
@@ -304,6 +303,7 @@ img {
 }
 /* Contact Us */
 #contact {
+    margin-top: 2px;
     position: relative;
     z-index: 2;
 }
@@ -355,6 +355,7 @@ img {
     color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
     margin-bottom: 10px;
+   
 }
 
 .new-footer ul {
