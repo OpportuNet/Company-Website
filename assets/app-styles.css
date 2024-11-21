@@ -1,0 +1,227 @@
+/* FONTS */
+@import url(../assets/clash-display.css);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@700&display=swap');
+
+/* Var */
+:root {
+    --c-dark: #000000;
+    --c-brand: #4e57d4;
+    --c-brand-light: #6970dd;
+    --c-brand-rgb: 250, 215, 61;
+    --c-body: #4e504a;
+    --font-base: "ClashDisplay", sans-serif;
+    --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
+    --transition: all 0.5s ease;
+    --bg-section: 189, 181, 181;
+}
+
+/* Set Elements */
+body {
+    font-family: var(--font-base);
+    line-height: 1.7;
+    color: var(--c-body);
+    background-color: rgb(236, 236, 236);
+}
+
+h1, h2, h3,h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight:bolder;
+    color: var(--c-dark);
+    font-family: "Outfit", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--c-brand-light);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.theme-shadow {
+    box-shadow: var(--box-shadow);
+}
+
+/* Img zoom */
+.image-zoom {
+    position: relative;
+}
+
+.image-zoom-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.image-zoom-wrapper img{
+     transition: var(--transition);
+}
+
+.image-zoom:hover .image-zoom-wrapper img {
+    transform: scale(1.1);
+}
+
+/* Navigation */
+.navbar {
+    box-shadow: var(--box-shadow);
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--c-dark);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--c-brand);
+}
+/* buttons */
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+}
+.btn-brand-me-2{
+    margin-top: 10px;
+    background-color: var(--c-brand);
+    border-color: var(--c-brand);
+    color: white;
+}
+.btn-brand-me-2:hover{
+    margin-top: 10px;
+    background-color: var(--c-brand-light);
+    border-color: var(--c-brand-light);
+    color: white;
+}
+
+
+.btn-brand {
+    background-color: var(--c-brand);
+    border-color: var(--c-brand);
+    color: white;
+    width: 100px;
+}
+
+.btn-brand:hover {
+    background-color: var(--c-brand-light);
+    border-color: var(--c-brand-light);
+    color: white;
+}
+/* For Home Section */
+#home {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 1.000), rgba(var(--c-brand-rgb), 0.438)), url(../assets/imgs/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-shadow: #212529;
+}
+
+.col-lg-6{
+    height: 25px;
+}
+/*** Job Listing ***/
+.nav-pills .nav-item .active {
+    border-bottom: 2px solid var(--primary);
+}
+
+.job-item {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.job-item:hover {
+    border-color: rgba(0, 0, 0, .08);
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+/* Footer Background and Styling */
+.new-footer {
+    background-color: #1a1a1a;
+    padding: 60px 0;
+}
+.new-footer .line {
+    width: 40px;
+    height: 4px;
+    background-color: #ff7f50;
+    margin: 10px 0;
+}
+.new-footer h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.new-footer p,
+.new-footer ul li {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+.new-footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+.new-footer ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.new-footer ul li a:hover {
+    color: #ff7f50;
+}
+.new-footer .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
+.new-footer .footer-bottom p {
+    color: rgba(255, 255, 255, 0.8);
+}
+.social-icons {
+    margin-top: 15px;
+}
+.social-icon {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.social-icon:hover {
+    color: #ff7f50;
+}
+/* Responsiveness */
+@media (max-width: 768px) {
+    .new-footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new-footer .col-md-4 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .new-footer .footer-bottom {
+        text-align: center;
+    }
+}
