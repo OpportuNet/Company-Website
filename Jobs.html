@@ -45,22 +45,26 @@
                       <input type="email" class="form-control" placeholder="Your Email">
                     </div>
                     <div class="col-12 col-sm-6">
-                      <input type="file" class="form-control bg-white" ">
+                      <!-- Label for the file input -->
+                      <label for="resume-upload" class="form-label">Upload Your Resume</label>
+                      
+                      <!-- File input for resume -->
+                      <input type="file" id="resume-upload" class="form-control bg-white">
                     </div>
                     <div class="col-12">
                       <textarea class="form-control" rows="5" placeholder="Coverletter"></textarea>
                     </div>
                     <div class="col-12">
-                      <button class="btn btn-primary w-100" type="submit">Apply Now</button>
+                      <button class="btn btn-primary w-100" type="submit">Submit</button>
                     </div>
                   </div>
                 </form>
               </div>
             </div>
-      
+      <br><br/>
             <div class="col-lg-4">
               <div class="bg-light rounded p-5 mb-4 wow slideInUp" data-wow-delay="0.1s">
-                <h4 class="mb-4">Job Summery</h4>
+                <h4 class="mb-4">Job Summary</h4>
                 <p><i class="fa fa-angle-right text-primary me-2"></i>Published On: <span class="published-date"></span></p>
                 <p><i class="fa fa-angle-right text-primary me-2"></i>Vacancy: <span class="vacancy"></span></p>
                 <p><i class="fa fa-angle-right text-primary me-2"></i>Job Nature: <span class="job-nature"></span></p>
@@ -68,10 +72,7 @@
                 <p><i class="fa fa-angle-right text-primary me-2"></i>Location: <span class="apply-location"></span></p>
                 <p class="m-0"><i class="fa fa-angle-right text-primary me-2"></i>Date Line: <span class="deadline"></span></p>
               </div>
-              <div class="bg-light rounded p-5 wow slideInUp" data-wow-delay="0.1s">
-                <h4 class="mb-4">Company Detail</h4>
-                <p class="company-description m-0"></p>
-              </div>
+             
             </div>
           </div>
         </div>

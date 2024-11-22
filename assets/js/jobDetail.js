@@ -37,8 +37,6 @@ function loadJobDetails() {
         document.querySelector('.apply-location').innerText = data.applyDetails.location;
         document.querySelector('.deadline').innerText = data.applyDetails.deadline;
   
-        // Company Details
-        document.querySelector('.company-description').innerText = data.companyDetails;
       })
       .catch(error => {
         console.error('Error loading job details:', error);
