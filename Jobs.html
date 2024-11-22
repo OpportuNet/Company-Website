@@ -18,6 +18,10 @@
                   <span class="text-truncate me-3 location"><i class="fa fa-map-marker-alt text-primary me-2"></i></span>
                   <span class="text-truncate me-3 job-type"><i class="far fa-clock text-primary me-2"></i></span>
                   <span class="text-truncate me-0 salary-range"><i class="far fa-money-bill-alt text-primary me-2"></i></span>
+                  <br>
+                  <!-- Vacancy and Applicants -->
+                  <span class="text-truncate me-3 vacancy"><i class="fas fa-users text-primary me-2"></i>Vacancy: <strong id="vacancy-count">5</strong></span>
+                  <span class="text-truncate me-3 applicants"><i class="fas fa-user-check text-primary me-2"></i>Applicants: <strong id="applicants-count">0</strong></span>
                 </div>
               </div>
       
@@ -45,14 +49,27 @@
                       <input type="email" class="form-control" placeholder="Your Email">
                     </div>
                     <div class="col-12 col-sm-6">
+                      <input 
+                        type="tel" 
+                        class="form-control" 
+                        placeholder="Enter your phone number" 
+                        required 
+                        pattern="[0-9]{10}" 
+                        title="Please enter a valid 10-digit phone number.">
+                    </div>
+                    <div class="col-12 col-sm-6">
                       <!-- Label for the file input -->
                       <label for="resume-upload" class="form-label">Upload Your Resume</label>
                       
                       <!-- File input for resume -->
-                      <input type="file" id="resume-upload" class="form-control bg-white">
+                      <input type="file" id="applicationletter-upload" class="form-control bg-white">
                     </div>
-                    <div class="col-12">
-                      <textarea class="form-control" rows="5" placeholder="Coverletter"></textarea>
+                    <div class="col-12 col-sm-6">
+                      <!-- Label for the file input -->
+                      <label for="resume-upload" class="form-label">Upload Your Application Letter</label>
+                      
+                      <!-- File input for app letter -->
+                      <input type="file" id="resume-upload" class="form-control bg-white">
                     </div>
                     <div class="col-12">
                       <button class="btn btn-primary w-100" type="submit">Submit</button>
@@ -61,23 +78,9 @@
                 </form>
               </div>
             </div>
-      <br><br/>
-            <div class="col-lg-4">
-              <div class="bg-light rounded p-5 mb-4 wow slideInUp" data-wow-delay="0.1s">
-                <h4 class="mb-4">Job Summary</h4>
-                <p><i class="fa fa-angle-right text-primary me-2"></i>Published On: <span class="published-date"></span></p>
-                <p><i class="fa fa-angle-right text-primary me-2"></i>Vacancy: <span class="vacancy"></span></p>
-                <p><i class="fa fa-angle-right text-primary me-2"></i>Job Nature: <span class="job-nature"></span></p>
-                <p><i class="fa fa-angle-right text-primary me-2"></i>Salary: <span class="salary"></span></p>
-                <p><i class="fa fa-angle-right text-primary me-2"></i>Location: <span class="apply-location"></span></p>
-                <p class="m-0"><i class="fa fa-angle-right text-primary me-2"></i>Date Line: <span class="deadline"></span></p>
-              </div>
-             
             </div>
           </div>
         </div>
-      </div>
-      
       <script src="./assets/js/jobDetail.js"></script>
 </body>
 </html>

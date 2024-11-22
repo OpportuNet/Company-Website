@@ -1,32 +1,306 @@
-{
-    "jobTitle": "Marketing Manager",
+[
+  {
+    "jobTitle": "Clerk",
     "location": "New York, USA",
     "jobType": "Full Time",
-    "salaryRange": "$123 - $456",
-    "companyLogo": "./assets/imgs/s2.jpg",
-    "jobDescription": "Dolor justo tempor duo ipsum accusam rebum gubergren erat. Elitr stet dolor vero clita labore gubergren...",
+    "salaryRange": "$30,000 - $45,000",
+    "companyLogo": "./assets/imgs/clerk-logo.jpg",
+    "jobDescription": "A clerk is responsible for administrative tasks such as filing, record-keeping, and providing customer service support.",
     "responsibilities": [
-      "Dolor justo tempor duo ipsum accusam",
-      "Elitr stet dolor vero clita labore gubergren",
-      "Rebum vero dolores dolores elitr",
-      "Est voluptua et sanctus at sanctus erat",
-      "Diam diam stet erat no est est"
+      "Maintain and organize company records and documents",
+      "Assist with data entry and updating records",
+      "Answer phones and direct calls to the appropriate department",
+      "Handle basic customer inquiries and correspondence"
     ],
     "qualifications": [
-      "Dolor justo tempor duo ipsum accusam",
-      "Elitr stet dolor vero clita labore gubergren",
-      "Rebum vero dolores dolores elitr",
-      "Est voluptua et sanctus at sanctus erat",
-      "Diam diam stet erat no est est"
+      "High school diploma or equivalent",
+      "Strong organizational skills",
+      "Excellent communication and customer service skills",
+      "Ability to work independently or as part of a team",
+      "Age: 18-30"
+    ]
+  },
+  {
+    "jobTitle": "Administrative Assistant",
+    "location": "Chicago, USA",
+    "jobType": "Full Time",
+    "salaryRange": "$40,000 - $55,000",
+    "companyLogo": "./assets/imgs/admin-assistant-logo.jpg",
+    "jobDescription": "The Administrative Assistant will perform a variety of office tasks including scheduling, correspondence, and general office support.",
+    "responsibilities": [
+      "Schedule and manage appointments for executives",
+      "Prepare and proofread documents and presentations",
+      "Coordinate meetings and travel arrangements",
+      "Maintain office supplies and equipment"
     ],
-    "applyDetails": {
-      "publishedDate": "01 Jan, 2045",
-      "vacancy": "123 Position",
-      "jobNature": "Full Time",
-      "salary": "$123 - $456",
-      "location": "New York, USA",
-      "deadline": "01 Jan, 2045"
-    }
+    "qualifications": [
+      "Proven experience as an administrative assistant or similar role",
+      "Proficient in Microsoft Office Suite",
+      "Strong organizational and time-management skills",
+      "Excellent verbal and written communication skills",
+      "Age: 21-35"
+    ]
+  },
+  {
+    "jobTitle": "Warehouse Assistant",
+    "location": "Los Angeles, USA",
+    "jobType": "Full Time",
+    "salaryRange": "$28,000 - $38,000",
+    "companyLogo": "./assets/imgs/warehouse-assistant-logo.jpg",
+    "jobDescription": "Warehouse Assistants help manage inventory, process orders, and assist in the organization of warehouse operations.",
+    "responsibilities": [
+      "Receive and process incoming stock and materials",
+      "Pack and ship orders accurately",
+      "Maintain inventory records and assist with stock rotation",
+      "Ensure a clean and organized warehouse environment"
+    ],
+    "qualifications": [
+      "High school diploma or equivalent",
+      "Basic knowledge of warehouse operations",
+      "Ability to lift and move heavy items",
+      "Attention to detail and ability to work with minimal supervision",
+      "Age: 18-35"
+    ]
+  },
+  {
+    "jobTitle": "Logistics Coordinator",
+    "location": "Dallas, USA",
+    "jobType": "Full Time",
+    "salaryRange": "$50,000 - $70,000",
+    "companyLogo": "./assets/imgs/logistics-coordinator-logo.jpg",
+    "jobDescription": "The Logistics Coordinator is responsible for coordinating the movement of goods and managing the logistics operations.",
+    "responsibilities": [
+      "Plan and track shipments from origin to destination",
+      "Coordinate with suppliers, vendors, and customers",
+      "Resolve shipping issues and delays",
+      "Ensure compliance with safety regulations and standards"
+    ],
+    "qualifications": [
+      "Bachelor's degree in logistics, supply chain, or related field",
+      "Experience with logistics software and tools",
+      "Strong organizational and problem-solving skills",
+      "Ability to work under pressure and meet deadlines",
+      "Age: 25-40"
+    ]
+  },
+  {
+    "jobTitle": "Delivery Driver",
+    "location": "San Francisco, USA",
+    "jobType": "Full Time",
+    "salaryRange": "$35,000 - $50,000",
+    "companyLogo": "./assets/imgs/delivery-driver-logo.jpg",
+    "jobDescription": "Delivery drivers are responsible for transporting goods from the warehouse to customers on time and safely.",
+    "responsibilities": [
+      "Load, transport, and deliver goods to clients or stores",
+      "Ensure accurate delivery of orders",
+      "Maintain the vehicle and report any issues",
+      "Follow all traffic and safety regulations"
+    ],
+    "qualifications": [
+      "Valid driver's license and clean driving record",
+      "Ability to lift heavy packages and drive long distances",
+      "Excellent time management skills",
+      "Age: 21-40"
+    ]
+  },
+  {
+    "jobTitle": "Warehouse Manager",
+    "location": "Seattle, USA",
+    "jobType": "Full Time",
+    "salaryRange": "$55,000 - $80,000",
+    "companyLogo": "./assets/imgs/warehouse-manager-logo.jpg",
+    "jobDescription": "The Warehouse Manager oversees the operations of the warehouse, including inventory management and team coordination.",
+    "responsibilities": [
+      "Manage the day-to-day operations of the warehouse",
+      "Supervise and train warehouse staff",
+      "Ensure inventory accuracy and stock control",
+      "Maintain health and safety standards in the warehouse"
+    ],
+    "qualifications": [
+      "Bachelor's degree in logistics, business, or related field",
+      "Experience in warehouse management or logistics",
+      "Strong leadership and organizational skills",
+      "Age: 30-45"
+    ]
+  },
+  {
+    "jobTitle": "Crew Member",
+    "location": "Miami, USA",
+    "jobType": "Part Time",
+    "salaryRange": "$10 - $15 per hour",
+    "companyLogo": "./assets/imgs/crew-member-logo.jpg",
+    "jobDescription": "Crew members assist in daily restaurant or retail operations, including customer service, food preparation, and maintaining cleanliness.",
+    "responsibilities": [
+      "Provide excellent customer service",
+      "Assist with food preparation and cooking",
+      "Maintain cleanliness of work areas",
+      "Assist in restocking inventory"
+    ],
+    "qualifications": [
+      "No previous experience required",
+      "Ability to work in a fast-paced environment",
+      "Strong teamwork and communication skills",
+      "Age: 18-25"
+    ]
+  },
+  {
+    "jobTitle": "Cashier",
+    "location": "Boston, USA",
+    "jobType": "Part Time",
+    "salaryRange": "$12 - $18 per hour",
+    "companyLogo": "./assets/imgs/cashier-logo.jpg",
+    "jobDescription": "Cashiers are responsible for processing customer transactions and ensuring smooth operations at the checkout.",
+    "responsibilities": [
+      "Operate the cash register and process payments",
+      "Assist customers with their purchases",
+      "Maintain the cleanliness of the checkout area",
+      "Handle returns and exchanges"
+    ],
+    "qualifications": [
+      "Previous cashier or retail experience preferred",
+      "Excellent customer service skills",
+      "Attention to detail and basic math skills",
+      "Age: 18-30"
+    ]
+  },
+  {
+    "jobTitle": "Crew Member",
+    "location": "Chicago, USA",
+    "jobType": "Part Time",
+    "salaryRange": "$10 - $15 per hour",
+    "companyLogo": "./assets/imgs/crew-member-logo.jpg",
+    "jobDescription": "Crew members assist with customer service, food preparation, and maintaining cleanliness in the store or restaurant.",
+    "responsibilities": [
+      "Provide excellent customer service",
+      "Prepare food items according to company standards",
+      "Maintain cleanliness in work areas",
+      "Assist in inventory management"
+    ],
+    "qualifications": [
+      "No experience required",
+      "Ability to work in a fast-paced environment",
+      "Strong communication skills",
+      "Age: 18-30"
+    ]
+  },
+  {
+    "jobTitle": "Security Guard",
+    "location": "Las Vegas, USA",
+    "jobType": "Full Time",
+    "salaryRange": "$35,000 - $50,000",
+    "companyLogo": "./assets/imgs/security-guard-logo.jpg",
+    "jobDescription": "Security guards protect property and ensure safety by patrolling areas and monitoring surveillance equipment.",
+    "responsibilities": [
+      "Monitor security cameras and surveillance equipment",
+      "Patrol assigned areas and report any suspicious activity",
+      "Provide a visible presence to deter crime",
+      "Respond to emergencies and assist with safety protocols"
+    ],
+    "qualifications": [
+      "Previous security experience preferred",
+      "Ability to stand for long periods and perform physical tasks",
+      "Strong observation and problem-solving skills",
+      "Age: 21-45"
+    ]
+  },
+  {
+    "jobTitle": "Store Clerk",
+    "location": "Houston, USA",
+    "jobType": "Full Time",
+    "salaryRange": "$28,000 - $38,000",
+    "companyLogo": "./assets/imgs/store-clerk-logo.jpg",
+    "jobDescription": "Store clerks assist customers with finding products, process transactions, and maintain store organization.",
+    "responsibilities": [
+      "Assist customers in locating and selecting products",
+      "Process sales transactions and handle cash",
+      "Maintain store cleanliness and product displays",
+      "Restock shelves and manage inventory"
+    ],
+    "qualifications": [
+      "High school diploma or equivalent",
+      "Previous retail experience preferred",
+      "Good communication and interpersonal skills",
+      "Age: 18-35"
+    ]
+  },
+  {
+    "jobTitle": "Store Manager",
+    "location": "Chicago, USA",
+    "jobType": "Full Time",
+    "salaryRange": "$60,000 - $90,000",
+    "companyLogo": "./assets/imgs/store-manager-logo.jpg",
+    "jobDescription": "Store managers are responsible for overseeing daily store operations, managing staff, and ensuring excellent customer service.",
+    "responsibilities": [
+      "Supervise and train store employees",
+      "Ensure smooth daily store operations",
+      "Maintain inventory levels and order supplies",
+      "Resolve customer complaints and issues"
+    ],
+    "qualifications": [
+      "Proven experience in retail management",
+      "Strong leadership and decision-making skills",
+      "Excellent customer service skills",
+      "Age: 30-50"
+    ]
+  },
+  {
+    "jobTitle": "Sales Representative",
+    "location": "New York, USA",
+    "jobType": "Full Time",
+    "salaryRange": "$45,000 - $65,000",
+    "companyLogo": "./assets/imgs/sales-representative-logo.jpg",
+    "jobDescription": "Sales Representatives are responsible for selling products and services, generating leads, and maintaining customer relationships.",
+    "responsibilities": [
+      "Identify new sales opportunities and generate leads",
+      "Provide product information and solutions to clients",
+      "Negotiate and close sales deals",
+      "Maintain relationships with clients and ensure satisfaction"
+    ],
+    "qualifications": [
+      "Bachelor’s degree or equivalent work experience in sales",
+      "Strong communication and interpersonal skills",
+      "Ability to work towards targets and sales goals",
+      "Age: 25-40"
+    ]
+  },
+  {
+    "jobTitle": "Delivery Driver",
+    "location": "Dallas, USA",
+    "jobType": "Full Time",
+    "salaryRange": "$35,000 - $50,000",
+    "companyLogo": "./assets/imgs/delivery-driver-logo.jpg",
+    "jobDescription": "Delivery drivers are responsible for transporting goods from the warehouse to customers on time and safely.",
+    "responsibilities": [
+      "Load, transport, and deliver goods to clients or stores",
+      "Ensure accurate delivery of orders",
+      "Maintain the vehicle and report any issues",
+      "Follow all traffic and safety regulations"
+    ],
+    "qualifications": [
+      "Valid driver's license and clean driving record",
+      "Ability to lift heavy packages and drive long distances",
+      "Excellent time management skills",
+      "Age: 21-40"
+    ]
+  },
+  {
+    "jobTitle": "Sales Associate",
+    "location": "Dallas, USA",
+    "jobType": "Part Time",
+    "salaryRange": "$10 - $15 per hour",
+    "companyLogo": "./assets/imgs/sales-associate-logo.jpg",
+    "jobDescription": "Sales Associates are responsible for assisting customers in purchasing products and providing an excellent shopping experience.",
+    "responsibilities": [
+      "Assist customers with product selection and inquiries",
+      "Process sales transactions and handle payments",
+      "Ensure product displays are neat and organized",
+      "Promote sales and special offers to customers"
+    ],
+    "qualifications": [
+      "High school diploma or equivalent",
+      "Previous sales or retail experience preferred",
+      "Friendly, outgoing personality",
+      "Age: 18-30"
+    ]
   }
-   
-  
+]
