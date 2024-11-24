@@ -92,6 +92,20 @@ img {
     width: 10rem;
     border-radius: 2rem;
 }
+.btn-nav{
+    font-weight: 600;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+    border-color: var(--c-brand);
+}
+.btn-nav:hover{
+    font-weight: 600;
+    padding: 1rem;
+    width: 10rem;
+    background-color: var(--c-brand-light);
+    border-color: var(--c-brand-light);
+}
 .btn-brand-me-2{
     margin-top: 10px;
     background-color: var(--c-brand);
@@ -129,6 +143,20 @@ img {
 .col-lg-6{
     height: 25px;
 }
+.hero-header {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.hero-subheader {
+    font-size: 1.25rem;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1.6;
+}
 /*** Job Listing ***/
 .nav-pills .nav-item .active {
     border-bottom: 2px solid var(--primary);
@@ -145,79 +173,156 @@ img {
     border-color: rgba(0, 0, 0, .08);
     box-shadow: none;
 }
-
-
-
-
-
-
-
-
-/* Footer Background and Styling */
-.new-footer {
-    background-color: #1a1a1a;
-    padding: 60px 0;
+/* Contact Us Section */
+#contact-us {
+    background-color: #ffffff; /* Set a clean background color */
+    padding: 60px 0; /* Add spacing to separate it from other sections */
+    box-shadow: var(--box-shadow); /* Consistent shadow styling */
 }
+
+#contact-us .section-title {
+    font-size: 2.5rem; /* Match header styles */
+    font-weight: 700;
+    color: var(--c-brand); /* Use brand color for consistency */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact-us .section-description {
+    font-size: 1.2rem; /* Match subtitle styles */
+    color: var(--c-body);
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+#contact-us .form-label {
+    font-weight: bold;
+    color: var(--c-dark);
+}
+
+#contact-us .form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    transition: var(--transition);
+}
+
+#contact-us .form-control:focus {
+    border-color: var(--c-brand);
+    box-shadow: 0 0 5px rgba(var(--c-brand-rgb), 0.5);
+}
+
+#contact-us .btn-primary {
+    background-color: var(--c-brand);
+    border-color: var(--c-brand);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+#contact-us .btn-primary:hover {
+    background-color: var(--c-brand-light);
+    border-color: var(--c-brand-light);
+}
+
+/* Footer Layout */
+.new-footer .row {
+    display: flex;
+    justify-content: center; /* Center both columns horizontally */
+    align-items: flex-start; /* Align items to the top */
+    gap: 40px; /* Space between Opportunet and Contact sections */
+    margin: 0 auto; /* Center the row within the container */
+}
+
+.new-footer .col-lg-3,
+.new-footer .col-md-4 {
+    margin-bottom: 30px; /* Bottom margin for spacing between rows */
+}
+
+/* Add margin-top to the Opportunet and Contact Sections */
+.new-footer .col-lg-3:first-child, /* First column (Opportunet) */
+.new-footer .col-md-4 { /* Second column (Contact) */
+    margin-top: 30px; /* Margin to space it away from the top */
+}
+
+/* Title Alignment */
+.new-footer h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center; /* Ensure titles are aligned center */
+}
+
+/* Line style for visual separation */
 .new-footer .line {
     width: 40px;
     height: 4px;
     background-color: #ff7f50;
-    margin: 10px 0;
+    margin: 10px auto;
 }
-.new-footer h5 {
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-}
+
+/* Footer styling */
 .new-footer p,
 .new-footer ul li {
     color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
     margin-bottom: 10px;
-
+    text-align: center; 
 }
+
 .new-footer ul {
     padding-left: 0;
     list-style: none;
 }
+
 .new-footer ul li a {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     transition: 0.3s;
 }
+
 .new-footer ul li a:hover {
     color: #ff7f50;
 }
+
 .new-footer .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 20px;
 }
+
 .new-footer .footer-bottom p {
     color: rgba(255, 255, 255, 0.8);
 }
+
 .social-icons {
     margin-top: 15px;
 }
+
 .social-icon {
     margin: 0 10px;
     font-size: 20px;
     color: #fff;
     transition: color 0.3s ease;
 }
+
 .social-icon:hover {
     color: #ff7f50;
 }
+
 /* Responsiveness */
 @media (max-width: 768px) {
     .new-footer .row {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+        gap: 20px; /* Reduced gap for smaller devices */
+        align-items: center; /* Center align columns vertically */
     }
 
+    .new-footer .col-lg-3, 
     .new-footer .col-md-4 {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px; /* Reduce margin-bottom on smaller screens */
     }
 
     .new-footer .footer-bottom {
