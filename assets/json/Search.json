@@ -1,0 +1,174 @@
+{
+    "job_listings":[
+      {
+        "job_title": "Clerk",
+        "location": "Tankulan, Manolo Fortich Bukidnon",
+        "duration": "3 Months",
+        "salary": "₱682/day",
+        "company_logo": "assets/imgs/logolgu.png",
+        "apply_link": "Apply Now",
+        "deadline": "16 Dec, 2024",
+        "job_id": 0
+      },
+      {
+        "job_title": "Administrative Assistant",
+        "location": "Manolo Fortich, Bukidnon",
+        "duration": "6 Months",
+        "salary": "₱818/day",
+        "company_logo": "assets/imgs/logolgu.png",
+        "apply_link": "Apply Now",
+        "deadline": "28 Dec, 2024",
+        "job_id": 1
+      },
+      {
+        "job_title": "Warehouse Assistant",
+        "location": "Manolo Fortich, Bukidnon",
+        "duration": "5 Months",
+        "salary": "₱682/day",
+        "company_logo": "assets/imgs/logomuti.png",
+        "apply_link": "Apply Now",
+        "deadline": "01 Jan, 2025",
+        "job_id": 2
+      },
+      {
+        "job_title": "Logistics Coordinator",
+        "location": "Manolo Fortich, Bukidnon",
+        "duration": "8 Months",
+        "salary": "₱721/day",
+        "company_logo": "assets/imgs/logomuti.png",
+        "apply_link": "Apply Now",
+        "deadline": "05 Jan, 2025",
+        "job_id": 3
+      },
+      {
+        "job_title": "Deliver Driver",
+        "location": "Manolo Fortich, Bukidnon",
+        "duration": "4 Months",
+        "salary": "₱492/day",
+        "company_logo": "assets/imgs/logofastdel.png",
+        "apply_link": "Apply Now",
+        "deadline": "01 Jan, 2045",
+        "job_id": 4
+      },
+      {
+        "job_title": "Warehouse Manager",
+        "location": "Manolo Fortich, Bukidnon",
+        "duration": "7 Months",
+        "salary": "₱730/day",
+        "company_logo": "assets/imgs/logofastdel.png",
+        "apply_link": "Apply Now",
+        "deadline": "09 Jan, 2025",
+        "job_id": 5
+      },
+      {
+        "job_listings": [
+          {
+            "job_title": "Crew Member",
+            "location": "Manolo Fortich, Bukidnon",
+            "duration": "3 Months",
+            "salary": "₱390/day",
+            "company_logo": "assets/imgs/julies.jpg",
+            "apply_link": "Apply Now",
+            "deadline": "11 Jan, 2025",
+            "job_id": 6
+          },
+          {
+            "job_title": "Cashier",
+            "location": "Manolo Fortich, Bukidnon",
+            "duration": "4 Months",
+            "salary": "₱425/day",
+            "company_logo": "assets/imgs/julies.jpg",
+            "apply_link": "Apply Now",
+            "deadline": "17 Jan, 2025",
+            "job_id": 7
+          },
+          {
+            "job_title": "Crew Member",
+            "location": "Manolo Fortich, Bukidnon",
+            "duration": "3 Months",
+            "salary": "₱415/day",
+            "company_logo": "assets/imgs/jollibee.jpg",
+            "apply_link": "Apply Now",
+            "deadline": "21 Jan, 2025",
+            "job_id": 8
+          },
+          {
+            "job_title": "Security Guard",
+            "location": "Manolo Fortich, Bukidnon",
+            "duration": "8 Months",
+            "salary": "₱470/day",
+            "company_logo": "assets/imgs/jollibee.jpg",
+            "apply_link": "Apply Now",
+            "deadline": "28 Jan, 2025",
+            "job_id": 9
+          },
+          {
+            "job_title": "Store Clerk",
+            "location": "Manolo Fortich, Bukidnon",
+            "duration": "6 Months",
+            "salary": "₱520/day",
+            "company_logo": "assets/imgs/7 eleven.jpg",
+            "apply_link": "Apply Now",
+            "deadline": "03 Feb, 2025",
+            "job_id": 10
+          },
+          {
+            "job_title": "Store Manager",
+            "location": "Manolo Fortich, Bukidnon",
+            "duration": "5 Months",
+            "salary": "₱650/day",
+            "company_logo": "assets/imgs/7 eleven.jpg",
+            "apply_link": "Apply Now",
+            "deadline": "09 Feb, 2025",
+            "job_id": 11
+          }
+        ]
+      },
+      {
+        "job_listings": [
+          {
+            "job_title": "Sales Representative",
+            "location": "Manolo Fortich, Bukidnon",
+            "duration": "7 Months",
+            "salary": "₱550/day",
+            "company_logo": "assets/imgs/Pryce-Gas.jpg",
+            "apply_link": "Apply Now",
+            "deadline": "15 Feb, 2025",
+            "job_id": 12
+          },
+          {
+            "job_title": "Delivery Driver",
+            "location": "Manolo Fortich, Bukidnon",
+            "duration": "9 Months",
+            "salary": "₱515/day",
+            "company_logo": "assets/imgs/Pryce-Gas.jpg",
+            "apply_link": "Apply Now",
+            "deadline": "26 Feb, 2025",
+            "job_id": 13
+          },
+          {
+            "job_title": "Sales Associate",
+            "location": "Manolo Fortich, Bukidnon",
+            "duration": "6 Months",
+            "salary": "₱520/day",
+            "company_logo": "assets/imgs/Mr. DIY.png",
+            "apply_link": "Apply Now",
+            "deadline": "15 Mar, 2025",
+            "job_id": 14
+          },
+          {
+            "job_title": "Store Manager",
+            "location": "Manolo Fortich, Bukidnon",
+            "duration": "8 Months",
+            "salary": "₱520/day",
+            "company_logo": "assets/imgs/7 eleven.jpg",
+            "apply_link": "Apply Now",
+            "deadline": "20 Mar, 2025",
+            "job_id": 15
+          }
+        ]
+      }
+      
+    ]
+}
+  
