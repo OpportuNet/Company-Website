@@ -1,9 +1,9 @@
 [
   {
     "jobTitle": "Clerk",
-    "location": "New York, USA",
-    "jobType": "Full Time",
-    "salaryRange": "$30,000 - $45,000",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
+    "jobType": "Part Time",
+    "salaryRange": "₱18,000 - ₱22,000/month",
     "companyLogo": "./assets/imgs/clerk-logo.jpg",
     "jobDescription": "A clerk is responsible for administrative tasks such as filing, record-keeping, and providing customer service support.",
     "responsibilities": [
@@ -18,13 +18,15 @@
       "Excellent communication and customer service skills",
       "Ability to work independently or as part of a team",
       "Age: 18-30"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Administrative Assistant",
-    "location": "Chicago, USA",
-    "jobType": "Full Time",
-    "salaryRange": "$40,000 - $55,000",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
+    "jobType": "Part Time",
+    "salaryRange": "₱15,000 - ₱18,000/month",
     "companyLogo": "./assets/imgs/admin-assistant-logo.jpg",
     "jobDescription": "The Administrative Assistant will perform a variety of office tasks including scheduling, correspondence, and general office support.",
     "responsibilities": [
@@ -39,12 +41,14 @@
       "Strong organizational and time-management skills",
       "Excellent verbal and written communication skills",
       "Age: 21-35"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Warehouse Assistant",
-    "location": "Los Angeles, USA",
-    "jobType": "Full Time",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
+    "jobType": "Part Time",
     "salaryRange": "$28,000 - $38,000",
     "companyLogo": "./assets/imgs/warehouse-assistant-logo.jpg",
     "jobDescription": "Warehouse Assistants help manage inventory, process orders, and assist in the organization of warehouse operations.",
@@ -60,12 +64,14 @@
       "Ability to lift and move heavy items",
       "Attention to detail and ability to work with minimal supervision",
       "Age: 18-35"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Logistics Coordinator",
-    "location": "Dallas, USA",
-    "jobType": "Full Time",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
+    "jobType": "Part Time",
     "salaryRange": "$50,000 - $70,000",
     "companyLogo": "./assets/imgs/logistics-coordinator-logo.jpg",
     "jobDescription": "The Logistics Coordinator is responsible for coordinating the movement of goods and managing the logistics operations.",
@@ -81,12 +87,14 @@
       "Strong organizational and problem-solving skills",
       "Ability to work under pressure and meet deadlines",
       "Age: 25-40"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Delivery Driver",
-    "location": "San Francisco, USA",
-    "jobType": "Full Time",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
+    "jobType": "Part Time",
     "salaryRange": "$35,000 - $50,000",
     "companyLogo": "./assets/imgs/delivery-driver-logo.jpg",
     "jobDescription": "Delivery drivers are responsible for transporting goods from the warehouse to customers on time and safely.",
@@ -101,12 +109,14 @@
       "Ability to lift heavy packages and drive long distances",
       "Excellent time management skills",
       "Age: 21-40"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Warehouse Manager",
-    "location": "Seattle, USA",
-    "jobType": "Full Time",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
+    "jobType": "Part Time",
     "salaryRange": "$55,000 - $80,000",
     "companyLogo": "./assets/imgs/warehouse-manager-logo.jpg",
     "jobDescription": "The Warehouse Manager oversees the operations of the warehouse, including inventory management and team coordination.",
@@ -121,11 +131,13 @@
       "Experience in warehouse management or logistics",
       "Strong leadership and organizational skills",
       "Age: 30-45"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Crew Member",
-    "location": "Miami, USA",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
     "jobType": "Part Time",
     "salaryRange": "$10 - $15 per hour",
     "companyLogo": "./assets/imgs/crew-member-logo.jpg",
@@ -141,11 +153,13 @@
       "Ability to work in a fast-paced environment",
       "Strong teamwork and communication skills",
       "Age: 18-25"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Cashier",
-    "location": "Boston, USA",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
     "jobType": "Part Time",
     "salaryRange": "$12 - $18 per hour",
     "companyLogo": "./assets/imgs/cashier-logo.jpg",
@@ -161,11 +175,13 @@
       "Excellent customer service skills",
       "Attention to detail and basic math skills",
       "Age: 18-30"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Crew Member",
-    "location": "Chicago, USA",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
     "jobType": "Part Time",
     "salaryRange": "$10 - $15 per hour",
     "companyLogo": "./assets/imgs/crew-member-logo.jpg",
@@ -181,12 +197,14 @@
       "Ability to work in a fast-paced environment",
       "Strong communication skills",
       "Age: 18-30"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Security Guard",
-    "location": "Las Vegas, USA",
-    "jobType": "Full Time",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
+    "jobType": "Part Time",
     "salaryRange": "$35,000 - $50,000",
     "companyLogo": "./assets/imgs/security-guard-logo.jpg",
     "jobDescription": "Security guards protect property and ensure safety by patrolling areas and monitoring surveillance equipment.",
@@ -201,12 +219,14 @@
       "Ability to stand for long periods and perform physical tasks",
       "Strong observation and problem-solving skills",
       "Age: 21-45"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Store Clerk",
-    "location": "Houston, USA",
-    "jobType": "Full Time",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
+    "jobType": "Part Time",
     "salaryRange": "$28,000 - $38,000",
     "companyLogo": "./assets/imgs/store-clerk-logo.jpg",
     "jobDescription": "Store clerks assist customers with finding products, process transactions, and maintain store organization.",
@@ -221,12 +241,14 @@
       "Previous retail experience preferred",
       "Good communication and interpersonal skills",
       "Age: 18-35"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Store Manager",
-    "location": "Chicago, USA",
-    "jobType": "Full Time",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
+    "jobType": "Part Time",
     "salaryRange": "$60,000 - $90,000",
     "companyLogo": "./assets/imgs/store-manager-logo.jpg",
     "jobDescription": "Store managers are responsible for overseeing daily store operations, managing staff, and ensuring excellent customer service.",
@@ -241,12 +263,14 @@
       "Strong leadership and decision-making skills",
       "Excellent customer service skills",
       "Age: 30-50"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Sales Representative",
-    "location": "New York, USA",
-    "jobType": "Full Time",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
+    "jobType": "Part Time",
     "salaryRange": "$45,000 - $65,000",
     "companyLogo": "./assets/imgs/sales-representative-logo.jpg",
     "jobDescription": "Sales Representatives are responsible for selling products and services, generating leads, and maintaining customer relationships.",
@@ -261,12 +285,14 @@
       "Strong communication and interpersonal skills",
       "Ability to work towards targets and sales goals",
       "Age: 25-40"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Delivery Driver",
-    "location": "Dallas, USA",
-    "jobType": "Full Time",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
+    "jobType": "Part Time",
     "salaryRange": "$35,000 - $50,000",
     "companyLogo": "./assets/imgs/delivery-driver-logo.jpg",
     "jobDescription": "Delivery drivers are responsible for transporting goods from the warehouse to customers on time and safely.",
@@ -281,11 +307,13 @@
       "Ability to lift heavy packages and drive long distances",
       "Excellent time management skills",
       "Age: 21-40"
-    ]
+    ],
+    "applicants": 0,
+    "vacancy": 5
   },
   {
     "jobTitle": "Sales Associate",
-    "location": "Dallas, USA",
+    "location": "Tankulan, Manolo Fortich Bukidnon",
     "jobType": "Part Time",
     "salaryRange": "$10 - $15 per hour",
     "companyLogo": "./assets/imgs/sales-associate-logo.jpg",
@@ -301,6 +329,9 @@
       "Previous sales or retail experience preferred",
       "Friendly, outgoing personality",
       "Age: 18-30"
-    ]
+
+    ],
+    "applicants": 0,
+    "vacancy": 5
   }
 ]
