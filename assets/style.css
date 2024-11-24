@@ -6,7 +6,7 @@
 :root {
     --c-dark: #000000;
     --c-brand: #4e57d4;
-    --c-brand-light: #6970dd;
+    --c-brand-light: #7179ec;
     --c-brand-rgb: 80, 74, 74;
     --c-body: #504a4a;
     --font-base: "ClashDisplay", sans-serif;
@@ -92,6 +92,20 @@ img {
     width: 10rem;
     border-radius: 2rem;
 }
+.btn-nav{
+    font-weight: 600;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+    border-color: var(--c-brand);
+}
+.btn-nav:hover{
+    font-weight: 600;
+    padding: 1rem;
+    width: 10rem;
+    background-color: var(--c-brand-light);
+    border-color: var(--c-brand-light);
+}
 .btn-brand-me-2{
     margin-top: 10px;
     background-color: var(--c-brand);
@@ -129,6 +143,8 @@ img {
 .col-lg-6{
     height: 25px;
 }
+
+  
 
 /* About Section */
 #about {
@@ -330,32 +346,50 @@ img {
     border-color: var(--c-brand);
 }
 
-/* Footer placement */
-/* Footer Background and Styling */
-.new-footer {
-    background-color: #1a1a1a;
-    padding: 60px 0;
+/* Footer Layout */
+.new-footer .row {
+    display: flex;
+    justify-content: center; /* Center both columns horizontally */
+    align-items: flex-start; /* Align items to the top */
+    gap: 40px; /* Space between Opportunet and Contact sections */
+    margin: 0 auto; /* Center the row within the container */
 }
 
+.new-footer .col-lg-3,
+.new-footer .col-md-4 {
+    margin-bottom: 30px; /* Bottom margin for spacing between rows */
+}
+
+/* Add margin-top to the Opportunet and Contact Sections */
+.new-footer .col-lg-3:first-child, /* First column (Opportunet) */
+.new-footer .col-md-4 { /* Second column (Contact) */
+    margin-top: 30px; /* Margin to space it away from the top */
+}
+
+/* Title Alignment */
+.new-footer h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center; /* Ensure titles are aligned center */
+}
+
+/* Line style for visual separation */
 .new-footer .line {
     width: 40px;
     height: 4px;
     background-color: #ff7f50;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
-.new-footer h5 {
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-}
-
+/* Footer styling */
 .new-footer p,
 .new-footer ul li {
     color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
     margin-bottom: 10px;
-   
+    text-align: center; 
 }
 
 .new-footer ul {
@@ -400,14 +434,14 @@ img {
 /* Responsiveness */
 @media (max-width: 768px) {
     .new-footer .row {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+        gap: 20px; /* Reduced gap for smaller devices */
+        align-items: center; /* Center align columns vertically */
     }
 
+    .new-footer .col-lg-3, 
     .new-footer .col-md-4 {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px; /* Reduce margin-bottom on smaller screens */
     }
 
     .new-footer .footer-bottom {
