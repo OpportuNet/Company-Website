@@ -61,18 +61,26 @@ document.querySelectorAll('.apply-now').forEach(button => {
     form.onsubmit = function (e) {
       e.preventDefault();
 
+      // Get the phone number entered by the user
+      const phoneNumber = document.getElementById('phone-number').value;
+
+      // Validate the phone number (simple example, adjust as needed)
+      if (!/^\d{10,15}$/.test(phoneNumber)) {
+        alert("Please enter a valid phone number (10-15 digits).");
+        return;
+      }
+
       // Increment the applicants count in localStorage
       const updatedJob = incrementApplicants(jobId);
 
-      // Update the applicants count in the modal
-      document.getElementById('applicants-count').textContent = updatedJob.applicants;
-
-      // Reset the form fields
+      // Clear the form fields
       form.reset();
 
       // Show success modal after submission
       jobModal.hide(); // Hide the current modal
       showSuccessModal(); // Show success message
+
+      console.log(`Application submitted with phone number: ${phoneNumber}`);
     };
   });
 });
