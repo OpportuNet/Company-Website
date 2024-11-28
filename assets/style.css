@@ -302,7 +302,7 @@ img {
 
 /* Team */
 .team-member-content {
-    background-color: var(--c-brand);
+    background-color: rgba(0, 0, 255, 0.4); /* Light transparent blue */
     position: absolute;
     bottom: -24px;
     left: 50%;
@@ -310,13 +310,53 @@ img {
     transform: translateX(-50%);
     padding: 24px;
     transition: var(--transition);
-    opacity: 0;
+    opacity: 0; /* Initially hidden */
 }
 
 .team-member:hover .team-member-content {
-    opacity: 1;
-    bottom: 24px;
+    opacity: 0.7; /* Semi-transparent on hover */
+    bottom: 24px; /* Move up smoothly */
+    background-color: rgba(0, 0, 255, 0.3); /* Even lighter transparent blue */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional light shadow */
 }
+
+.team-member-content h4,
+.team-member-content p {
+    color: white; /* Ensure high contrast */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Add shadow for visibility */
+    margin: 0; /* Maintain spacing */
+}
+
+
+/* New styles for consistent image sizing */
+.team-member {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px; /* Optional for rounded corners */
+}
+
+.image-zoom-wrapper {
+    width: 100%; /* Ensure full width of the parent container */
+    height: 300px; /* Set a consistent height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image-zoom-wrapper img {
+    width: 100%; /* Ensure full width */
+    height: 100%; /* Ensure full height */
+    object-fit: cover; /* Maintain aspect ratio */
+    transition: transform 0.3s ease-in-out; /* Smooth effect for other interactions */
+}
+
+.image-zoom-wrapper img[src*="person-1.jpg"] {
+    transform: scale(1.2); /* More zoom by default */
+    object-position: center; /* Adjust focus point if needed */
+}
+
+
 /* Contact Us */
 #contact {
     margin-top: 2px;
