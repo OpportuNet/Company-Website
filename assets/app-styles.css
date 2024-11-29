@@ -84,7 +84,8 @@ img {
 .navbar-nav .nav-link.active {
     color: var(--c-brand);
 }
-/* buttons */
+
+/* Buttons */
 .btn {
     font-weight: 600;
     transition: all 300ms ease;
@@ -92,46 +93,23 @@ img {
     width: 10rem;
     border-radius: 2rem;
 }
-.btn-nav{
+
+.btn-nav {
     font-weight: 600;
     padding: 1rem;
     width: 10rem;
     border-radius: 2rem;
     border-color: var(--c-brand);
 }
-.btn-nav:hover{
+
+.btn-nav:hover {
     font-weight: 600;
     padding: 1rem;
     width: 10rem;
     background-color: var(--c-brand-light);
     border-color: var(--c-brand-light);
 }
-.btn-brand-me-2{
-    margin-top: 10px;
-    background-color: var(--c-brand);
-    border-color: var(--c-brand);
-    color: white;
-}
-.btn-brand-me-2:hover{
-    margin-top: 10px;
-    background-color: var(--c-brand-light);
-    border-color: var(--c-brand-light);
-    color: white;
-}
 
-
-.btn-brand {
-    background-color: var(--c-brand);
-    border-color: var(--c-brand);
-    color: white;
-    width: 100px;
-}
-
-.btn-brand:hover {
-    background-color: var(--c-brand-light);
-    border-color: var(--c-brand-light);
-    color: white;
-}
 /* For Home Section */
 #home {
     background: linear-gradient(rgba(var(--c-brand-rgb), 1.000), rgba(var(--c-brand-rgb), 0.438)),url(../assets/imgs/logo.jpg);
@@ -140,9 +118,6 @@ img {
     text-shadow: #212529;
 }
 
-.col-lg-6{
-    height: 25px;
-}
 .hero-header {
     font-size: 3.5rem;
     font-weight: bold;
@@ -150,6 +125,7 @@ img {
     color: #ffffff;
     margin-top: 20px;
 }
+
 .hero-subheader {
     font-size: 1.25rem;
     color: #ffffff;
@@ -157,11 +133,8 @@ img {
     margin-top: 10px;
     line-height: 1.6;
 }
-/*** Job Listing ***/
-.nav-pills .nav-item .active {
-    border-bottom: 2px solid var(--primary);
-}
 
+/*** Job Listing ***/
 .job-item {
     border: 1px solid transparent;
     border-radius: 2px;
@@ -173,159 +146,96 @@ img {
     border-color: rgba(0, 0, 0, .08);
     box-shadow: none;
 }
+
 /* Contact Us Section */
 #contact-us {
-    background-color: #ffffff; /* Set a clean background color */
-    padding: 60px 0; /* Add spacing to separate it from other sections */
-    box-shadow: var(--box-shadow); /* Consistent shadow styling */
+    background-color: #ffffff;
+    padding: 60px 0;
+    box-shadow: var(--box-shadow);
 }
 
 #contact-us .section-title {
-    font-size: 2.5rem; /* Match header styles */
+    font-size: 2.5rem;
     font-weight: 700;
-    color: var(--c-brand); /* Use brand color for consistency */
+    color: var(--c-brand);
     text-align: center;
     margin-bottom: 20px;
 }
 
 #contact-us .section-description {
-    font-size: 1.2rem; /* Match subtitle styles */
+    font-size: 1.2rem;
     color: var(--c-body);
     text-align: center;
     margin-bottom: 40px;
     line-height: 1.6;
 }
 
-#contact-us .form-label {
-    font-weight: bold;
-    color: var(--c-dark);
-}
-
-#contact-us .form-control {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    transition: var(--transition);
-}
-
-#contact-us .form-control:focus {
-    border-color: var(--c-brand);
-    box-shadow: 0 0 5px rgba(var(--c-brand-rgb), 0.5);
-}
-
-#contact-us .btn-primary {
-    background-color: var(--c-brand);
-    border-color: var(--c-brand);
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 4px;
-    transition: var(--transition);
-}
-
-#contact-us .btn-primary:hover {
-    background-color: var(--c-brand-light);
-    border-color: var(--c-brand-light);
-}
-
 /* Footer Layout */
 .new-footer .row {
     display: flex;
-    justify-content: center; /* Center both columns horizontally */
-    align-items: flex-start; /* Align items to the top */
-    gap: 40px; /* Space between Opportunet and Contact sections */
-    margin: 0 auto; /* Center the row within the container */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 0 auto;
 }
 
-.new-footer .col-lg-3,
-.new-footer .col-md-4 {
-    margin-bottom: 30px; /* Bottom margin for spacing between rows */
-}
-
-/* Add margin-top to the Opportunet and Contact Sections */
-.new-footer .col-lg-3:first-child, /* First column (Opportunet) */
-.new-footer .col-md-4 { /* Second column (Contact) */
-    margin-top: 30px; /* Margin to space it away from the top */
-}
-
-/* Title Alignment */
 .new-footer h5 {
     font-size: 1.25rem;
     font-weight: 600;
     color: #fff;
     margin-bottom: 10px;
-    text-align: center; /* Ensure titles are aligned center */
+    text-align: center;
 }
 
-/* Line style for visual separation */
-.new-footer .line {
-    width: 40px;
-    height: 4px;
-    background-color: #ff7f50;
-    margin: 10px auto;
-}
-
-/* Footer styling */
-.new-footer p,
-.new-footer ul li {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 14px;
-    margin-bottom: 10px;
-    text-align: center; 
-}
-
-.new-footer ul {
-    padding-left: 0;
-    list-style: none;
-}
-
-.new-footer ul li a {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.new-footer ul li a:hover {
-    color: #ff7f50;
-}
-
-.new-footer .footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 20px;
-}
-
-.new-footer .footer-bottom p {
-    color: rgba(255, 255, 255, 0.8);
-}
-
-.social-icons {
-    margin-top: 15px;
-}
-
-.social-icon {
-    margin: 0 10px;
-    font-size: 20px;
-    color: #fff;
-    transition: color 0.3s ease;
-}
-
-.social-icon:hover {
-    color: #ff7f50;
-}
-
-/* Responsiveness */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-    .new-footer .row {
-        flex-direction: column; /* Stack columns vertically on smaller screens */
-        gap: 20px; /* Reduced gap for smaller devices */
-        align-items: center; /* Center align columns vertically */
+    body {
+        padding: 0 15px;
     }
 
-    .new-footer .col-lg-3, 
-    .new-footer .col-md-4 {
-        margin-bottom: 20px; /* Reduce margin-bottom on smaller screens */
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.5rem;
     }
 
-    .new-footer .footer-bottom {
+    .section-padding {
+        padding: 80px 0;
+    }
+
+    #home .hero-header {
+        font-size: 2rem;
+    }
+
+    #home .hero-subheader {
+        font-size: 1rem;
+    }
+
+    #offers .job-item {
+        flex-direction: column;
         text-align: center;
+    }
+
+    #offers .job-item img {
+        margin: 10px auto;
+        width: 60px;
+        height: 60px;
+    }
+
+    #reviews .review-head {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.25rem;
+    }
+
+    #home .hero-header {
+        font-size: 1.5rem;
+    }
+
+    #offers .job-item img {
+        width: 50px;
+        height: 50px;
     }
 }
