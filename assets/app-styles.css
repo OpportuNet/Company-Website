@@ -173,19 +173,106 @@ img {
 /* Footer Layout */
 .new-footer .row {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 40px;
-    margin: 0 auto;
+    justify-content: center; /* Center both columns horizontally */
+    align-items: flex-start; /* Align items to the top */
+    gap: 40px; /* Space between Opportunet and Contact sections */
+    margin: 0 auto; /* Center the row within the container */
 }
 
+.new-footer .col-lg-3,
+.new-footer .col-md-4 {
+    margin-bottom: 30px; /* Bottom margin for spacing between rows */
+}
+
+/* Add margin-top to the Opportunet and Contact Sections */
+.new-footer .col-lg-3:first-child, /* First column (Opportunet) */
+.new-footer .col-md-4 { /* Second column (Contact) */
+    margin-top: 30px; /* Margin to space it away from the top */
+}
+
+/* Title Alignment */
 .new-footer h5 {
     font-size: 1.25rem;
     font-weight: 600;
     color: #fff;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: center; /* Ensure titles are aligned center */
 }
+
+/* Line style for visual separation */
+.new-footer .line {
+    width: 40px;
+    height: 4px;
+    background-color: #ff7f50;
+    margin: 10px auto;
+}
+
+/* Footer styling */
+.new-footer p,
+.new-footer ul li {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.new-footer ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.new-footer ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.new-footer ul li a:hover {
+    color: #ff7f50;
+}
+
+.new-footer .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
+
+.new-footer .footer-bottom p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ff7f50;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .new-footer .row {
+        flex-direction: column; /* Stack columns vertically on smaller screens */
+        gap: 20px; /* Reduced gap for smaller devices */
+        align-items: center; /* Center align columns vertically */
+    }
+
+    .new-footer .col-lg-3, 
+    .new-footer .col-md-4 {
+        margin-bottom: 20px; /* Reduce margin-bottom on smaller screens */
+    }
+
+    .new-footer .footer-bottom {
+        text-align: center;
+    }
+}
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
