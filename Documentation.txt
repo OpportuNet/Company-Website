@@ -17,6 +17,7 @@ salary, location, and deadlines, ensuring clarity for applicants.
 3. Efficiency in Job Search: Features such as search filters on job listings reduce the time spent by 
 job seekers in finding roles that align with their skills and preferences.
 
+
 Significance
 For Job Seekers:
 The platform removes barriers to accessing employment opportunities, especially for those in rural or underserved areas, 
